@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.liulei1947.photos.ResideMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp" >
+
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/card_background_training_raised"
+        android:contentDescription="@string/descr_image"
+        android:scaleType="centerCrop" />
+
+    <ProgressBar android:id="@+id/loading" 
+        android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_gravity="center" 
+          android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SWU 1204</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_changelog">Bmob更新日志</string>
+    <string name="close">关闭</string>
+
+    <string name="vitamio_demo_name">VitamioDemo</string>
+	<string name="local_video">Play Video from Local File</string>
+	<string name="local_video_setsurface">Play Video use setSurface</string>
+    <string name="stream_video">Play Streaming Video</string>
+    <string name="local_audio">Play Audio from Local File</string>
+    <string name="res_audio">Play Audio from Resources</string>
+    <string name="title_activity_video_subtitle_demo">VideoSubtitleDemo</string>
+ 
+    <string name="subtitle1">MediaPlayer  Subtitles</string>
+    <string name="subtitle12">VideoView Subtitles</string>
+    <string name="title_activity_media_player_subtitle">MediaPlayerSubtitle</string>
+    <string name="title_activity_video_view_subtitle">VideoViewSubtitle</string>
+    <string name="title_activity_video_subtitle_list">VideoSubtitleList</string>
+    <string name="title_activity_video_buffer">VideoViewBuffer</string>
+    <string name="openvideo1">Open Video1</string>
+    <string name="openvideo2">Open Video2</string>
+    <string name="action_hide">Hide Panel</string>
+    <string name="action_show">Show Panel</string>
+    <string name="action_anchor_enable">Enable Anchor Point</string>
+    <string name="action_anchor_disable">Disable Anchor Point</string>
+   
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+    <string name="share_by_weixin">微信分享</string>
+    <string name="share_by_qq">QQ分享</string>
+    <string name="share_by_yixin">易信分享</string>
+    <string name="shake_share">注册摇一摇截图->分享</string>
+    <string name="shake_openshare">注册摇一摇打开分享面板</string>
+    <string name="shake_scrshot">注册摇一摇截图</string>
+    <string name="take_scrshot">直接截图</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="quit">退出</string>
+    <string name="video_start_time">00:00</string>
+    <string name="goto_video">摇一摇视频截图Activity</string>
+    <string name="goto_game">游戏Activity</string>
+    <string name="goto_common">普通Activity</string>
+    <string name="video">VideoActivity</string>
+    <string name="game">GameActivity</string>
+    <string name="common">CommonActivity</string>
+    <string name="back">返回</string>
+    <string name="goto_facebook">添加Facebook分享</string>
+    <string name="fb_login">Facebook登录</string>
+    <string name="fb_logout">Facebook注销</string>
+    <string name="fb_share">Facebook分享</string>
+    <string name="laiwang_share">来往分享</string>
+    <string name="instagram_share">Instagram分享</string>
+    <string name="fb_app_id">567261760019884</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating Facebook status at </string>
+    <string name="ok">OK</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    
+   
+    <string name="publish">发布</string>
+    <string name="share">随时随地分享...</string>
+    <string name="comment">评论</string>
+
+    <string-array name="bmob_push_list">
+        <item>1. 订阅渠道</item>
+        <item>2. 取消订阅</item>
+        <item>3. 给所有人推送</item>
+        <item>4. 给指定Android用户推送</item>
+        <item>5. 给指定IOS用户推送</item>
+        <item>6. 给指定渠道用户推送</item>
+        <item>7. 给不活跃用户推送消息</item>
+        <item>8. 给Android平台推送</item>
+        <item>9. 给IOS平台推送</item>
+        <item>10. 根据地理位置信息推送</item>
+    </string-array>
+
+    <string name="login_username_hint">请输入用户名&#8230;</string>
+    <string name="login_password_hint">请输入密码&#8230;</string>
+    <string name="login_email_hint">请在此输入密码&#8230;</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="register_txt1">还没有账号？</string>
+    <string name="register_txt2">立即注册 ></string>
+    <string name="login_account">账号 </string>
+    <string name="login_pwd">密码 </string>
+    <string name="login_email">确认密码 </string>
+    <string name="message_search_hint">搜索&#8230;</string>
+    <string name="main_tab_recent">会话</string>
+    <string name="main_tab_contact">联系人</string>
+    <string name="mian_tab_set">设置</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="add_avator">头像</string>
+    <string name="add_nick">昵称</string>
+    <string name="add_name">账号</string>
+    <string name="add_name_hint">请输入昵称&#8230;</string>
+    <string name="add_gender">性别</string>
+    <string name="set_notify">接收新消息通知</string>
+    <string name="set_myinfo">个人资料</string>
+    <string name="set_blacklist">黑名单</string>
+    <string name="set_voice">声音</string>
+    <string name="set_vibrate">震动</string>
+    <string name="tips">提示</string>
+    <string name="logout">退出登陆</string>
+    <string name="pop_photo">拍照</string>
+    <string name="pop_choose">从手机相册选中</string>
+    <string name="network_tips">当前网络不可用,请检查您的网络!</string>
+    <string name="toast_error_password_null">密码不能为空</string>
+    <string name="toast_error_username_null">用户名不能为空</string>
+    <string name="toast_error_comfirm_password">输入的两次密码不一致</string>
+    <string name="blacklist">黑名单</string>
+    <string name="chat">发起会话</string>
+    <string name="add_friend">添加好友</string>
+    <string name="send_state">已读</string>
+    <string name="longclick_speak">长按说话</string>
+    <string name="picture">照片</string>
+    <string name="camera">拍摄</string>
+    <string name="location">位置</string>
+    <string name="black_tips">已添加至黑名单，你将不再收到对方的消息!</string>
+    <string name="username">用户名</string>
+    <string name="search">搜索</string>
+    <string name="new_friends">新朋友</string>
+    <string name="near_people">附近的人</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+    <string name="descr_image">Image</string>
+    <string name="feedbackinfo">您的反馈、系统信息、和程序调试日志将发送给Liulei1947，请参阅Liulei1947的隐私政策和服务条款。</string>
+    <string name="dev_purpose">班级相册的开发目的在于：方便本班的形象展示，毕业后班上同学还能更方便更集中的浏览那些青春岁月。</string>
+    <string name="title_activity_index">Index</string>
+
+  
+    <string name="voice_up_tips">手指上滑,取消发送</string>
+    <string name="voice_cancel_tips">松开手指，取消发送</string>
+    
+    <string name="voice_seconds_tips">还可以说%1$s秒</string>
+    
+    <string name="voice_short_tips">录音时间太短</string>
+   
+</resources>

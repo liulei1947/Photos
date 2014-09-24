@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!--
+     #00000000 透明
+     #000000 纯黑
+     #FFFFFF 纯白
+     #E36D6D 西瓜红
+     #698CD6 蓝
+     #E3DBCF 暗白
+     #9C8E8E 灰色
+     #8E9C8E 灰绿
+    -->
+    
+    <!-- 透明 -->
+   
+        <color name="test_color">#00b7ee</color>
+   
+   
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+   
+    <color name="border_bkg">#FFFFFF</color>
+    <color name="border">#000000</color>
+<!--     <color name="border">#E36D6D</color> -->
+    <color name="text">#000000</color>
+    <color name="main_bkg">#E3DBCF</color>
+    <color name="button">#FFFFFF</color>
+    <color name="button_disable">#9C8E8E</color>
+    <color name="button_press">#F1F1F1</color>
+    <color name="button_text">#000000</color>
+  <!--   <color name="button_text">#698CD6</color> -->
+ <color name="base_actionbar_bg">#f5f5f5</color>
+    <color name="base_action_bar_title_color">#2f2725</color>
+    <color name="base_tab_indicator_text_color">#f82c22</color>
+    <color name="base_menu_left_bg">#393c44</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="base_color_text_gray">#9fa0a0</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="home_item_color_bg">#f4f6f6</color>
+    <color name="base_bg">#f4f6f6</color>
+    <!-- zxing -->
+    <color name="color_half_transparent">#b0000000</color>
+    <color name="color_transparent_bg">#80000000</color>
+    <color name="color_transparent_bg1">#e0000000</color>
+    <!-- emot -->
+    <color name="msg_emote_divider">#ffa1a1a1</color>
+    <color name="color_bottom_bg">#272a2e</color>
+    <color name="color_bottom_text_normal">#9da0a4</color>
+    <color name="color_bottom_text_press">#4f9ef6</color>
+    <color name="text_gray">#969696</color>
+    <color name="transparent">#00000000</color>
+    <color name="msg_chat_bg">#eceff4</color>
+    
+    <color name="theme_bg_color">#f0f2f5</color>
+    <color name="color_theme">#489cfa</color>
+    <color name="c_f98800">#ed4e23</color>
+    
+    <color name="dialog_color_title">#f82c22</color>
+    <color name="guide_color">#898989</color>
+
+   
+	     <color name="common_bg">#fcfcfc</color>
+	    
+</resources>

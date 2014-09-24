@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+ <com.liulei1947.photos.PhotosView.SlidingUpPanelLayout
+        xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:background="@color/base_color_text_white"
+        sothree:panelHeight="50dp"
+        sothree:shadowHeight="4dp"
+        sothree:paralaxOffset="100dp"
+        sothree:dragView="@+id/name">
+
+ <!-- MAIN CONTENT -->
+   <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+      <ListView
+        android:id="@+id/upsidelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="@null"
+        android:divider="@null"
+        android:dividerHeight="16dp"
+        android:fadingEdge="none"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:scrollbarStyle="outsideOverlay" />
+  	
+                  
+   </FrameLayout>
+
+        <!-- SLIDING LAYOUT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+    		android:clickable="true"
+            android:focusable="false">
+  	 
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" 
+                android:orientation="horizontal">
+          <TextView
+                    
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                     android:text="刘磊说"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"/>
+
+				
+            </LinearLayout>
+        <LinearLayout
+        android:id="@+id/test_view"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_marginTop="60dp"
+   		android:layout_height="fill_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+	<com.liulei1947.photos.PhotosView.HackyViewPager 
+   		android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:padding="10dip"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        />
+	       </FrameLayout>
+	   </LinearLayout>   
+	      
+ 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/showerror" >
+            </ImageView>
+            
+        </LinearLayout>
+    </com.liulei1947.photos.PhotosView.SlidingUpPanelLayout>
+
+</LinearLayout>

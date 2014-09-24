@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_action_send"  
+      
+        android:showAsAction="always"/>
+<item
+        android:id="@+id/photos_social_group"
+        android:orderInCategory="1"
+        android:title="聊天"
+        android:icon="@drawable/photos_social_group"  
+        
+        android:showAsAction="always"/>
+<item
+        android:id="@+id/ic_action_share"
+        android:orderInCategory="1"
+        android:title="分享"
+        android:icon="@drawable/ic_action_share"  
+       
+        android:showAsAction="always"/>
+</menu>

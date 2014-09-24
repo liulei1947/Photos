@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/base_color_text_white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/splash_logo" />
+
+    
+
+    <com.liulei1947.photos.Shimmer.ShimmerTextView
+        android:id="@+id/shimmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Design By Liulei"
+        android:textColor="@color/base_color_text_black"
+        android:textColorLink="@color/color_bottom_text_normal"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="0dp"
+        android:gravity="bottom"
+        android:text="©2014  liulei" />
+    <TextView
+        android:id="@+id/wwwaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="0dp"
+        android:gravity="bottom"
+        android:text="liulei.bmob.com" />
+
+</LinearLayout>
